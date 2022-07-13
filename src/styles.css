@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 340px;
+  border-radius: 20px;
+  margin: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+  position: relative;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  position: absolute;
+  right: 0.8rem;
+}
+
+.card-body {
+  padding: 1.2em;
+}
